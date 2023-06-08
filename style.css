@@ -69,8 +69,17 @@ h1 {
 .achievements {
     margin-bottom: 20px;
 }
-
+.skills{
+    display: flex;
+    flex-direction: row;
+    
+}
 .achievements ul {
-    list-style-type: square;
+    list-style-type: disc;
     margin-left: 20px;
+}
+.skills li{
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 1px;
 }
